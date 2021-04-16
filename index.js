@@ -263,7 +263,12 @@ function get20s(array){
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
 function removeArtist(array, index){
-   /*Your Code Here*/
+   for(let i = 0; i < array.length; i++){
+     if(array[i] === array[index]){
+       
+     }
+   }
+   retirm array.length;
 }
    
 
@@ -283,7 +288,7 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
+function addArtist(array, id, name, years, genre){
     /*Your Code Here*/
   }
 
